@@ -71,7 +71,7 @@ viewMoreBtn.addEventListener('click' ,() => {
 
 window.addEventListener('wheel',(e) => {
     
-    if(e.deltaY === 102){
+    if(e.deltaY > 0){
         animateIntro()
     }
 })
