@@ -99,11 +99,14 @@ window.addEventListener('touchmove' , (e) => {
 })
 
 
-
+let isScrolledZero = false
 window.addEventListener('scroll',() => {
 
-    if(started && window.scrollY === 0){
+    if(started && window.scrollY === 0 && !isScrolledZero){
+        isScrolledZero = true
 
+    }else if(started && window.scrollY === 0 && isScrolledZero){
+        isScrolledZero = false
         body.style.overflowY = 'hidden'
         main.style.overflowY = 'hidden'
 
