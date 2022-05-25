@@ -65,13 +65,35 @@ function animateIntro(){
 
 
 
-viewMoreBtn.addEventListener('click' ,() => {
+viewMoreBtn.addEventListener('click' , () => {
     animateIntro()   
 })
 
 window.addEventListener('wheel',(e) => {
     
-    if(e.deltaY > 0){
+    if(e.deltaY > 102){
+        animateIntro()
+    }
+})
+
+
+let firstTouch = {
+    x : undefined,
+    y : undefined
+}
+let releasedTouch = {
+    x : undefined,
+    y : undefined
+}
+
+window.addEventListener('touchstart' , (e) => {
+    firstTouch.x = e.touches[0].screenX
+    firstTouch.y = e.touches[0].screenY
+})
+window.addEventListener('touchmove' , (e) => {
+    releasedTouch.x = e.touches[0].screenX
+    releasedTouch.y = e.touches[0].screenY
+    if(firstTouch.y > releasedTouch.y){
         animateIntro()
     }
 })
