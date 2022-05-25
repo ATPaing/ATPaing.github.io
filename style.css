@@ -61,7 +61,7 @@ canvas{
     box-shadow: 0px 0px 10px black;
     border-radius: 15px;
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .profile{
         width: 90vw;
     }
@@ -116,7 +116,7 @@ canvas{
     z-index: -1;
     padding-inline: 1.5em;
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .contents{
         padding-inline: 1em;
     }
@@ -127,7 +127,7 @@ canvas{
     gap: 3em;
     padding: 1em;
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .my-projects{
         padding-inline: 0;
     }
@@ -151,7 +151,7 @@ canvas{
     letter-spacing: 2px;
     font-size: clamp(1.3rem,3vw,2rem);
 }
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .front-end-mentor-projects__title{
         font-size: 1.2rem;
         text-align: center;
