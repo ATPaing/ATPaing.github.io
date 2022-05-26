@@ -282,6 +282,7 @@ footer{
 }
 .contacts-link{
     display: flex;
+    align-items: center;
     gap: 1.2em;
     font-size: clamp(1rem, 2vw, 1.5rem);
     transition: all 360ms linear;
