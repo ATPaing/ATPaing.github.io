@@ -68,7 +68,7 @@ canvas{
 }
 .profile-info{
     font-size: clamp(1.5rem,3.5vw,3rem);
-    background: linear-gradient(to right, #FF896B, #FFBEA8); 
+    background: linear-gradient(to right, #e2a958, #E0C7A4); 
     background-clip: text;
     -webkit-background-clip: text;
     letter-spacing: 2px;
