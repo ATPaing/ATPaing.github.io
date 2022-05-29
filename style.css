@@ -68,7 +68,7 @@ canvas{
 }
 .profile-info{
     font-size: clamp(1.5rem,3.5vw,3rem);
-    background: linear-gradient(to right, #ff4b1f, #ff9068); 
+    background: linear-gradient(to right, #FF896B, #FFBEA8); 
     background-clip: text;
     -webkit-background-clip: text;
     letter-spacing: 2px;
@@ -251,8 +251,6 @@ canvas{
 .front-end-mentor__links__github,.my-creations__links__github{
     margin-right: 8px;
 }
-
-
 footer{
     display: none;
     position: relative;
