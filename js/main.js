@@ -24,9 +24,9 @@ const myCreationProjectsVanillaImageLink = document.querySelectorAll('.my-creati
 const myCreationProjectsVanillaLiveLink = document.querySelectorAll('.my-creations__links__live a')
 const myCreationProjectsVanillaGithubLink = document.querySelectorAll('.my-creations__links__github a')
 
-const vanillaJsLiveLinksArr = ['http://black-jack-iota.vercel.app','http://js-calculator-six.vercel.app','http://ecommerce-project-eight-smoky.vercel.app','http://fun-with-canvas.vercel.app','http://video-player-red.vercel.app','http://photo-editor-one.vercel.app','http://screen-saver.vercel.app']
+const vanillaJsLiveLinksArr = ['http://black-jack-iota.vercel.app','http://js-calculator-six.vercel.app','http://ecommerce-project-eight-smoky.vercel.app','http://fun-with-canvas.vercel.app','http://video-player-red.vercel.app','http://photo-editor-one.vercel.app','http://screen-saver.vercel.app', 'https://ml-helper.vercel.app/']
 
-const vanillaJsgithubLinksArr = ['https://github.com/ATPaing/blackJack','https://github.com/ATPaing/js-calculator','https://github.com/ATPaing/ecommerce-project','https://github.com/ATPaing/fun-with-canvas','https://github.com/ATPaing/video-player','https://github.com/ATPaing/photo-editor','https://github.com/ATPaing/screen-saver']
+const vanillaJsgithubLinksArr = ['https://github.com/ATPaing/blackJack','https://github.com/ATPaing/js-calculator','https://github.com/ATPaing/ecommerce-project','https://github.com/ATPaing/fun-with-canvas','https://github.com/ATPaing/video-player','https://github.com/ATPaing/photo-editor','https://github.com/ATPaing/screen-saver', 'https://github.com/ATPaing/MLHelper']
 
 let backgroundHue = 150
 let started = false
